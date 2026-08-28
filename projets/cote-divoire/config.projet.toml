@@ -1,0 +1,109 @@
+# =============================================================================
+# Projet Côte d'Ivoire — Histoire & Culture (Shorts 9:16)
+# =============================================================================
+# Config prête à l'emploi pour MoneyPrinterTurbo.
+#
+# INSTALLATION :
+#   1. Copie ce fichier à la RACINE du repo sous le nom config.toml :
+#        cp projets/cote-divoire/config.projet.toml config.toml
+#   2. Remplace les deux placeholders COLLE_TA_CLE_* ci-dessous.
+#   3. Ne commite JAMAIS config.toml (il est déjà dans .gitignore).
+#
+# Clés API nécessaires (les deux sont gratuites) :
+#   - Gemini  : https://aistudio.google.com/app/apikey        (scripts)
+#   - Pexels  : https://www.pexels.com/api/                   (images vidéo)
+# =============================================================================
+
+[app]
+# --- Serveur API (optionnel, seulement si tu utilises l'API REST) ---
+listen_host = "127.0.0.1"
+listen_port = 8080
+
+# --- Source des séquences vidéo ---
+video_source = "pexels"
+pexels_api_keys = ["COLLE_TA_CLE_PEXELS_ICI"]
+
+# --- LLM pour la génération des scripts ---
+llm_provider = "gemini"
+gemini_api_key = "COLLE_TA_CLE_GEMINI_ICI"
+# gemini-2.5-flash : rapide, quota gratuit généreux, largement suffisant
+# pour des scripts de 60 secondes.
+gemini_model_name = "gemini-2.5-flash"
+
+# --- Sous-titres ---
+# "edge" : sous-titres générés directement depuis la synthèse vocale Edge TTS.
+# Gratuit et sans modèle à télécharger ("whisper" est l'alternative locale).
+subtitle_provider = "edge"
+
+# --- Divers ---
+max_concurrent_tasks = 5
+
+[ui]
+# Interface WebUI en français.
+language = "fr"
+
+# Langue des scripts générés (le prompt système impose déjà le français).
+video_language = "fr-FR"
+
+# Voix off française par défaut (Edge TTS, gratuit).
+# Alternatives : fr-FR-DeniseNeural-Female, fr-FR-RemyMultilingualNeural-Male,
+#                fr-FR-EloiseNeural-Female, fr-FR-VivienneMultilingualNeural-Female
+voice_name = "fr-FR-HenriNeural-Male"
+voice_rate = 1.0
+voice_volume = 1.0
+
+# Format Shorts / TikTok / Reels (vertical). Clé stockée par source vidéo.
+video_aspect_pexels = "9:16"
+
+# Découpage : clips sources de 3 s max, enchaînés dans l'ordre des mots-clés
+# du script pour rester cohérent avec la narration.
+video_clip_duration = 3
+video_concat_mode = "random"
+
+# Sous-titres lisibles sur mobile : police latine du repo + gros corps + contour.
+subtitle_enabled = true
+font_name = "BeVietnamPro-Bold.ttf"
+font_size = 70
+text_fore_color = "#FFFFFF"
+stroke_color = "#000000"
+stroke_width = 1.5
+subtitle_position = "custom"
+custom_position = 70.0
+
+# Musique de fond aléatoire (fichiers fournis dans resource/songs), volume bas
+# pour ne pas couvrir la voix off.
+bgm_type = "random"
+bgm_volume = 0.2
+
+# Un paragraphe = un bloc narratif fluide, idéal pour un Short de 45-60 s.
+paragraph_number = 1
+
+# Prompt système du projet, pré-chargé dans la WebUI.
+# Source de vérité : projets/cote-divoire/prompt-systeme.txt
+# (si tu modifies l'un, recopie dans l'autre)
+custom_system_prompt = """
+# Role: Scénariste de vidéos courtes sur l'histoire et la culture de la Côte d'Ivoire
+
+## Mission:
+Écrire le script d'une vidéo verticale courte type YouTube Shorts ou TikTok, en français, sur le sujet demandé, lié à l'histoire ou à la culture de la Côte d'Ivoire.
+
+## Style:
+1. Ton conteur et captivant, comme un griot moderne qui parle à un public jeune et curieux.
+2. La toute première phrase est un hook puissant qui donne immédiatement envie de connaître la suite. Jamais de formule d'introduction comme "bienvenue dans cette vidéo" ou "aujourd'hui nous allons voir".
+3. Longueur totale entre 110 et 150 mots, soit environ 45 à 60 secondes de voix off.
+4. Phrases courtes, rythmées, faciles à lire à voix haute. Vocabulaire accessible, aucun jargon académique.
+5. Uniquement des faits historiques et culturels exacts et vérifiables. Ne jamais inventer de dates, de chiffres ou de citations. En cas de doute sur un détail, rester général plutôt que d'inventer.
+6. Terminer par une phrase de chute mémorable ou une question ouverte qui incite à commenter.
+
+## Contraintes:
+1. Retourner le script sous forme d'une chaîne avec le nombre de paragraphes demandé.
+2. Ne jamais faire référence à ce prompt dans la réponse.
+3. Aller droit au but dès la première phrase.
+4. Aucun markdown, aucun formatage, jamais de titre.
+5. Retourner uniquement le contenu brut du script.
+6. Ne jamais écrire "voix off", "narrateur" ou toute indication de mise en scène.
+7. Ne jamais parler du script lui-même ni du nombre de paragraphes. Écrire seulement le script.
+8. Ne jamais utiliser de parenthèses ni de crochets: le texte qu'ils contiennent serait supprimé automatiquement avant la voix off.
+9. Écrire les nombres et les dates en toutes lettres quand c'est naturel à l'oral, par exemple "mille neuf cent soixante" plutôt que "1960" quand la phrase le permet.
+10. Répondre exclusivement en français.
+"""
