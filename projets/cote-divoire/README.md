@@ -14,6 +14,7 @@ gratuit) → sous-titres → musique → MP4 final.
 | `sujets-histoire-culture.jsonl` | Les 20 premiers sujets de la chaîne, avec mots-clés Pexels |
 | `generer.sh` | Génère 1 vidéo : `./generer.sh "sujet"` |
 | `generer-batch.sh` | Génère les 20 vidéos du manifeste en série |
+| `generer-images.py` | Génère des images 9:16 avec Gemini pour les sujets sans stock vidéo |
 
 ## Mise en route (une seule fois)
 
@@ -88,6 +89,35 @@ STOP_AT=script ./projets/cote-divoire/generer-batch.sh
 Les vidéos finales sont dans `storage/tasks/<id>/final-1.mp4`, une par sujet,
 avec le script (`script.json`), l'audio et les sous-titres à côté.
 
+### Option D — Images générées avec Gemini (sujets sans stock vidéo)
+
+Pour les sujets impossibles à couvrir en stock (Abla Pokou, l'indépendance
+de 1960, le Zaouli…), génère des visuels verticaux avec la même clé Gemini
+que les scripts, puis monte-les directement :
+
+```bash
+# 1. Génère 5 images 9:16 (≈ 0,04 $ / image, modèle gemini-2.5-flash-image)
+python3 projets/cote-divoire/generer-images.py "La reine Abla Pokou, marche légendaire du peuple baoulé" -n 5
+
+# 2. Monte la vidéo avec ces images (zoom automatique sur chaque image,
+#    ordre alphabétique, voix off + sous-titres comme d'habitude)
+IMAGES="projets/cote-divoire/images/la-reine-abla-pokou-marche-legendaire-du-peuple-baoule" \
+    ./projets/cote-divoire/generer.sh "La légende de la reine Abla Pokou"
+```
+
+À savoir :
+
+- `IMAGES=` accepte un dossier (png/jpg/jpeg/bmp + clips mp4/mov/mkv/webm)
+  ou une liste `chemin1,chemin2` ; tu peux donc mélanger images Gemini et
+  vrais clips.
+- Le style par défaut est « photo documentaire cinématographique, sans
+  texte » ; pour une légende ancienne, passe par exemple
+  `--style "Peinture numérique cinématographique, style griot, couleurs chaudes, aucun texte"`.
+- `--dry-run` montre la requête exacte sans rien consommer, et
+  `DRY_RUN=1 ./generer.sh …` montre la commande de montage sans la lancer.
+- Relance le script sur le même sujet pour **ajouter** des images (la
+  numérotation continue, rien n'est écrasé).
+
 ## Éditer la chaîne
 
 - **Ajouter des sujets** : une ligne JSON par vidéo dans
@@ -108,8 +138,9 @@ forêt, cacao, ville…). Pour les sujets très visuels (basilique de
 Yamoussoukro, Zaouli), pense à :
 
 - affiner les `video_terms` ligne par ligne quand un rendu déçoit ;
-- ou passer en matériaux locaux : dépose tes propres clips libres de droits
-  et utilise `--video-source local --video-materials "chemin1,chemin2"`.
+- générer les visuels avec Gemini (Option D ci-dessus) ;
+- ou déposer tes propres clips libres de droits via `IMAGES="dossier"` /
+  `--video-source local --video-materials "chemin1,chemin2"`.
 
 ## Les 20 premiers épisodes
 

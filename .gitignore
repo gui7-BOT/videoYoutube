@@ -42,3 +42,6 @@ htmlcov/
 .codegraph
 /docs/superpowers
 .understand-anything
+
+# Generated images for channel projects (projets/*/generer-images.py output)
+projets/*/images/
