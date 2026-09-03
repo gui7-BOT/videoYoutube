@@ -41,19 +41,91 @@ persos ne raconte rien.
 
 ### Créateurs et marques identifiés
 
-| Nom | Note | À vérifier |
+Classés par accessibilité estimée, pas par notoriété. Le plus connu n'est pas
+le plus utile : il est le plus sollicité.
+
+| Nom | Profil | Pourquoi lui |
 |---|---|---|
-| **Loza Maléombho** | Formée entre Abidjan et New York, la plus internationale des créatrices ivoiriennes | Disponibilité, taille de la structure |
-| **Kente Gentlemen** (Aristide Loua) | Fondée en 2014, une des marques afro-premium les plus reconnues d'Afrique francophone. Costumes homme en kente revisité, production artisanale à Abidjan | Cible masculine, à croiser avec ton angle portrait entreprise |
-| **Maison Kanty's** (W. Kouakou Mackenzie, T. Bohui Aguy) | Primée éco-responsable à Africa Fashion Up 2026 | Structure récente, probablement plus accessible |
+| **Calvin Gueyes** ⭐ | 28 ans, atelier à Treichville. A conçu le costume national porté par Olivia Yacé à Miss Univers | Jeune, un fait d'armes récent et visible, tout à gagner en visibilité internationale. Et Treichville est un décor autrement plus fort qu'un showroom |
+| **Djainin** ⭐ | Jean-Yves Kouassi et Gaston Ouédraogo. Esthétique inspirée du Nouchi, entre références historiques et culture populaire | Jeunes fondateurs, ancrage local revendiqué. Le Nouchi, c'est Abidjan même. Sujet de série évident |
+| **Kente Gentlemen** ⭐ | Aristide Loua. Silhouettes masculines et féminines, artisans locaux, mode responsable | Le tailoring homme croise directement ton angle portrait entreprise. Coup double |
+| **Maison Kanty's** | W. Kouakou Mackenzie, T. Bohui Aguy. Prix éco-responsable Africa Fashion Up 2026 | Structure jeune, donc accessible |
+| **Gilles Touré** | Pilier de la haute couture locale, sur-mesure | Établi. Plus difficile, mais registre qui te correspond |
+| **Pathé O** | Pionnier du stylisme africain à Abidjan, pagne tissé. Figure historique | Un shoot chez lui serait un épisode entier. Vise-le, ne compte pas dessus |
+| **Loza Maléombho** | Formée entre Abidjan et New York | La plus internationale, donc la plus sollicitée |
+| **WAFA Haute Couture** | Styliste modéliste ivoirien | À qualifier |
 
-**Recommandation : commence par Kente Gentlemen et Maison Kanty's.** Loza Maléombho
-est la plus établie, donc la plus sollicitée et la plus difficile à atteindre.
-Une marque plus jeune a plus à gagner et répond plus vite.
+**Contacte les trois premiers la même semaine.** Calvin Gueyes, Djainin,
+Kente Gentlemen. Trois messages, trois profils différents, une seule session.
 
-**Kente Gentlemen mérite une attention particulière :** costumes homme, tailoring.
-C'est exactement le registre du portrait entreprise que tu veux développer.
-Un shoot chez eux te donne des images utilisables en démarchage corporate à Paris.
+Sur trois contacts sérieux tu obtiens statistiquement une ou deux réponses,
+et c'est suffisant : **un seul créateur qui dit oui te donne un shoot complet.**
+
+---
+
+## 1 bis. Le deal, concrètement
+
+Un créateur va demander ce qu'il récupère et ce que ça lui coûte. Aie la réponse
+prête avant d'envoyer le message, sinon tu perds la conversation au deuxième échange.
+
+### Ce que tu proposes
+
+- **10 à 15 images retouchées** de ses pièces, livrées sous trois semaines
+  après ton retour (développement et scans compris)
+- **Libres d'usage pour sa communication** : site, réseaux, presse, lookbook
+- Ton crédit photo mentionné, c'est tout
+
+### Ce que tu demandes
+
+- L'accès aux pièces
+- L'accès à son espace : atelier, boutique, showroom
+- **La modèle, s'il travaille déjà avec quelqu'un.** C'est le point qui change tout :
+  un créateur a presque toujours un visage qu'il connaît, disponible et fiable
+- L'accord d'être filmé, dit dès le premier message
+
+### Qui paie quoi
+
+| Poste | Qui |
+|---|---|
+| Pellicules, développement, scans | Toi |
+| MUA | Toi |
+| Modèle fournie par le créateur | Personne, elle vient avec lui |
+| Modèle que tu dois trouver | Toi, selon le régime du shoot |
+| Lieu | Le créateur |
+
+**L'économie est excellente pour toi.** Un shoot créateur te coûte la MUA
+et la pellicule, et te donne des vêtements, un lieu, souvent une modèle,
+et des images éditoriales bien plus fortes qu'un portrait en vêtements persos.
+
+### Le piège
+
+**Ne promets pas de délai court.** Tu shootes en argentique, tu ne verras rien
+avant Paris. Annonce trois semaines après ton retour, pas trois jours après le shoot.
+Un créateur déçu sur les délais ne te recommandera à personne.
+
+Et double au numérique. Si l'argentique rate, tu dois quand même livrer.
+
+---
+
+## 1 ter. Ce que ça change dans ton plan
+
+Si deux ou trois créateurs disent oui, la répartition de tes shoots change,
+et elle s'améliore :
+
+| Avant | Après |
+|---|---|
+| 6 shoots avec modèles trouvées à froid | 3 shoots créateurs + 2-3 shoots modèles |
+| Vêtements persos | Pièces de créateurs |
+| Lieux à trouver | Ateliers et showrooms fournis |
+| Casting entièrement à ta charge | Modèles partiellement fournies |
+| Images de portrait | Images éditoriales |
+
+**Et narrativement tu gagnes un sujet.** Un atelier de couture à Treichville,
+un créateur qui explique ses pièces, des mains qui travaillent le tissu :
+infiniment plus fort qu'un vlog de shooting classique.
+
+Ça peut même devenir la colonne vertébrale de la saison : trois créateurs,
+trois univers, trois épisodes.
 
 ---
 

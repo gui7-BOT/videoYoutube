@@ -28,7 +28,7 @@ C'est la décision structurante du projet. Tout le reste en découle.
 | `07-storytelling.md` | Moteur narratif, motif récurrent, structure d'épisode, voix off |
 | `08-scouting.md` | Acteurs professionnels d'Abidjan identifiés : créateurs, photographes, MUA, agences |
 | `09-messages-contact.md` | Messages types prêts à envoyer, par type d'interlocuteur |
-| `scouting/tracker.md` | Suivi des contacts, pré-rempli |
+| `scouting/` | Outil de suivi des contacts en Python, 29 cibles pré-remplies |
 | `journal/` | Notes de terrain quotidiennes (un fichier par jour) |
 
 ---

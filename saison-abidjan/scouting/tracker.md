@@ -1,89 +1,58 @@
 # Tracker de scouting
 
-**Objectif : 5 à 6 modèles confirmées + 1 MUA verrouillée avant le 15 octobre.**
+> Genere par `scouting.py export`. Ne pas editer a la main :
+> les modifications seraient ecrasees. Utiliser les commandes de l'outil.
 
-Statuts : `à qualifier` → `contacté` → `en discussion` → `confirmé` / `non`
+**Objectif : 6 modeles confirmees + 1 MUA verrouillee avant le 15 octobre.**
 
----
+Genere le 03/09/2026 · J-46 avant depart.
 
-## Créateurs de mode ⭐ à contacter en premier
 
-| # | Nom | Statut | Contacté le | Notes |
+## Createurs de mode
+
+| Nom | Statut | Contacte le | Source | Note |
 |---|---|---|---|---|
-| 1 | Kente Gentlemen (Aristide Loua) | à qualifier | | Costumes homme kente, Abidjan. Croise avec l'angle portrait entreprise |
-| 2 | Maison Kanty's (W. Kouakou Mackenzie / T. Bohui Aguy) | à qualifier | | Primée Africa Fashion Up 2026, structure jeune |
-| 3 | Loza Maléombho | à qualifier | | La plus établie, donc la plus sollicitée |
+| Calvin Gueyes | a qualifier | - | recherche web | 28 ans, atelier a Treichville. A concu le costume national d'Olivia Yace a Miss Univers. Jeune, un fait d'armes recent, tout a gagner en visibilite internationale. Treichville est un decor fort. PRIORITE 1 |
+| Djainin | a qualifier | - | recherche web | Jean-Yves Kouassi et Gaston Ouedraogo. Esthetique inspiree du Nouchi, references historiques et culture populaire. Jeunes fondateurs, ancrage local fort. PRIORITE 1 |
+| Gilles Toure | a qualifier | - | recherche web | Pilier de la haute couture locale. Sur-mesure, elegance travaillee. Etabli, donc plus difficile a atteindre |
+| Kente Gentlemen | a qualifier | - | recherche web | Aristide Loua. Silhouettes masculines et feminines, artisans locaux, mode responsable. Le tailoring homme croise l'angle portrait entreprise. PRIORITE 1 |
+| Loza Maleombho | a qualifier | - | recherche web | Formee entre Abidjan et New York. La plus internationale, donc la plus sollicitee et la plus difficile |
+| Maison Kanty's | a qualifier | - | recherche web | W. Kouakou Mackenzie et T. Bohui Aguy. Prix eco-responsable Africa Fashion Up 2026. Structure jeune, donc plus accessible |
+| Pathe O | a qualifier | - | recherche web | Pionnier du stylisme africain a Abidjan, pagne tisse. Figure historique. Un shoot chez lui serait un episode entier |
+| WAFA Haute Couture | a qualifier | - | recherche web | wafahautecouture.com. Styliste modeliste ivoirien. A qualifier |
 
 ## MUA
 
-| # | Nom | Présence | Statut | Contacté le | Notes |
-|---|---|---|---|---|---|
-| 1 | `@lenabeauty17` | Instagram | à qualifier | | Vérifier proportion shooting vs mariage |
-| 2 | `@mailuxurybeauty` | Instagram | à qualifier | | Mentionne les shootings photo |
-| 3 | Ninnin Beauty Studio | Facebook, Cocody | à qualifier | | Studio établi |
-| 4 | Fairy Touch Makeup | Facebook | à qualifier | | |
-| 5 | Make up de Vi | Facebook | à qualifier | | |
-| 6 | Fée Crystal | Facebook | à qualifier | | |
-| 7 | Make-up Me | Facebook | à qualifier | | |
-| 8 | Lyd.makeup (Lydia Amon) | Facebook | à qualifier | | |
+| Nom | Statut | Contacte le | Source | Note |
+|---|---|---|---|---|
+| @lenabeauty17 | a qualifier | - | recherche web | Instagram. Verifier proportion shooting vs mariage |
+| @mailuxurybeauty | a qualifier | - | recherche web | Instagram. Mentionne explicitement les shootings photo |
+| Fairy Touch Makeup | a qualifier | - | recherche web | Facebook. Mariage et glam |
+| Fee Crystal | a qualifier | - | recherche web | Facebook. Maquillage, perruques, coiffure |
+| Lyd.makeup | a qualifier | - | recherche web | Facebook. Lydia Amon |
+| Make up de Vi | a qualifier | - | recherche web | Facebook |
+| Make-up Me | a qualifier | - | recherche web | Facebook. Maquillage et ongles |
+| Ninnin Beauty Studio | a qualifier | - | recherche web | Facebook, Cocody. Studio etabli |
 
 ## Photographes locaux
 
-| # | Nom | Présence | Statut | Contacté le | Notes |
-|---|---|---|---|---|---|
-| 1 | Dadi (Kouamé Aka A. Thierry) | `@nuits_balneaires` | à qualifier | | Le plus pertinent. Scène créative jeune d'Abidjan |
-| 2 | Mickaël Tidou | `@enigm_art_photographie` | à qualifier | | |
-| 3 | Paul Sika | — | à qualifier | | Établi, mode et publicité |
-| 4 | Malick Kebe | — | à qualifier | | |
-| 5 | Ahmed Sheïl'A | Angré 8e tranche | à qualifier | | Photographe de mode |
-| 6 | Noeïm Photographie | noeim.com/mode | à qualifier | | Studio : éditorial, lookbooks |
-| 7 | Kader Diaby | — | à qualifier | | Registre plus artistique |
+| Nom | Statut | Contacte le | Source | Note |
+|---|---|---|---|---|
+| @enigm_art_photographie | a qualifier | - | recherche web | Mickael Tidou |
+| @nuits_balneaires | a qualifier | - | recherche web | Dadi, Kouame Aka Aboubakhr Thierry. Voix majeure de la jeune scene creative d'Abidjan. LE contact confrere le plus pertinent |
+| Ahmed Sheil'A | a qualifier | - | recherche web | Photographe de mode, Angre 8e tranche |
+| Kader Diaby | a qualifier | - | recherche web | Registre plus artistique |
+| Malick Kebe | a qualifier | - | recherche web | Photographe, Abidjan |
+| Noeim Photographie | a qualifier | - | recherche web | noeim.com/mode. Editorial, lookbooks |
+| Paul Sika | a qualifier | - | recherche web | Mode et publicite, directeur creatif. Etabli |
 
-## Agences · pour sécuriser les shoots payés
+## Agences
 
-| # | Nom | Statut | Contacté le | Tarif demi-journée | Notes |
-|---|---|---|---|---|---|
-| 1 | ChezCan | à qualifier | | | 1000+ modèles annoncés |
-| 2 | Ocean Groove Model Agency | à qualifier | | | Formation et placement |
-| 3 | Model Agenci | à qualifier | | | |
-| 4 | Agence Diva | à qualifier | | | Mannequins et hôtesses |
-| 5 | Agence Kida | à qualifier | | | Mannequinat et influence |
-| 6 | Ivoir Casting | à qualifier | | | Publicité et cinéma |
-
----
-
-## Modèles · à remplir au fil du scouting
-
-| # | Compte | Source | Statut | Contacté le | Régime | Shoot prévu | Notes |
-|---|---|---|---|---|---|---|---|
-| 1 | | | | | | | |
-| 2 | | | | | | | |
-| 3 | | | | | | | |
-| 4 | | | | | | | |
-| 5 | | | | | | | |
-| 6 | | | | | | | |
-| 7 | | | | | | | |
-| 8 | | | | | | | |
-| 9 | | | | | | | |
-| 10 | | | | | | | |
-
-**Colonne Source :** noter d'où vient le contact (créateur X, MUA Y, taguée chez
-photographe Z, scouting direct). Ça te dit rapidement quel canal fonctionne
-et où concentrer l'effort.
-
----
-
-## Suivi
-
-| Semaine | Contacts envoyés | Réponses | Confirmés |
-|---|---|---|---|
-| 7-13 sept | | | |
-| 14-20 sept | | | |
-| 21-27 sept | | | |
-| 28 sept - 4 oct | | | |
-| 5-11 oct | | | |
-| 12-18 oct | | | |
-
-**Seuil d'alerte :** si au 4 octobre tu as moins de 3 modèles confirmées,
-bascule sur les agences pour les shoots payés. Ne pas attendre la mi-octobre
-pour s'en rendre compte.
+| Nom | Statut | Contacte le | Source | Note |
+|---|---|---|---|---|
+| Agence Diva | a qualifier | - | recherche web | Facebook. Mannequins et hotesses |
+| Agence Kida | a qualifier | - | recherche web | Mannequinat et influence |
+| ChezCan | a qualifier | - | recherche web | chezcan.com. Annonce 1000+ modeles photo et acteurs |
+| Ivoir Casting | a qualifier | - | recherche web | Formation et placement, publicite et cinema |
+| Model Agenci | a qualifier | - | recherche web | Mannequinat et evenementiel |
+| Ocean Groove Model Agency | a qualifier | - | recherche web | oceangroove.club. Formation et placement |
