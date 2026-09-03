@@ -46,7 +46,67 @@ FENETRE = "du 19 octobre au 20 novembre"
 # Messages
 # --------------------------------------------------------------------------
 
+# Propositions personnalisees. Un createur repond a un projet, pas a un message
+# generique. Les angles sont des hypotheses : valider 20 min sur son compte avant
+# d'envoyer, et ajuster. Voir 11-projets-createurs.md
+PROJETS = {
+    "calvin gueyes": """Vos pieces naissent a Treichville. Je voudrais les photographier la,
+dans le quartier, pas dans un studio neutre. Je travaille en moyen format
+argentique, en lumiere naturelle. L'ecart entre la precision du vetement et
+la matiere du lieu, c'est exactement ce qui m'interesse.""",
+
+    "djainin": """Votre travail part du Nouchi, donc de la rue et de ce qu'elle invente.
+Je voudrais photographier vos pieces dans ce contexte-la, pas contre un fond
+neutre. Moyen format argentique, lumiere naturelle, temps long.""",
+
+    "kente gentlemen": """Ce qui m'interesse dans votre travail, c'est le vetement comme prolongement
+de quelqu'un : la stature, la matiere, la facon dont un costume tient un homme.
+Je voudrais en faire une serie de portraits, en moyen format argentique,
+lumiere travaillee, cadrage serre.""",
+
+    "elie kuame": """Je viens y construire une serie sur la mode ivoirienne, en moyen format
+argentique. J'aimerais photographier vos pieces pendant ce sejour.""",
+}
+
+# La question sur la mannequin ne se pose jamais en "pouvez-vous fournir" :
+# on presuppose, ce qui pousse a chercher plutot qu'a refuser.
+QUESTION_MANNEQUIN = ("Avec quelle mannequin travaillez-vous habituellement ? "
+                      "Je construirai le projet\nautour d'elle.")
+QUESTION_MANNEQUIN_H = ("Avec quel mannequin travaillez-vous habituellement ? "
+                        "Je construirai la serie\nautour de lui.")
+
+
 def message_createur(nom):
+    cle = nom.lower().strip()
+    angle = PROJETS.get(cle)
+    if not angle:
+        return message_createur_generique(nom)
+
+    question = QUESTION_MANNEQUIN_H if cle == "kente gentlemen" else QUESTION_MANNEQUIN
+    corps = f"""Bonjour,
+
+Guillaume Gimenez, photographe base a Paris. Mon travail : {PORTFOLIO}
+Je serai a Abidjan {FENETRE}.
+
+{angle}
+
+Vous recuperez 10 a 15 images retouchees, libres d'usage pour votre
+communication, trois semaines apres mon retour."""
+
+    if cle == "elie kuame":
+        corps += """
+
+Et une question a part : est-ce qu'un defile ou une presentation est prevu
+pendant cette periode ? Je serais preneur d'y assister, appareil a la main."""
+
+    return corps + f"""
+
+{question}
+
+Guillaume"""
+
+
+def message_createur_generique(nom):
     return f"""Bonjour,
 
 Je suis Guillaume Gimenez, photographe base a Paris. Je serai a Abidjan {FENETRE}.
