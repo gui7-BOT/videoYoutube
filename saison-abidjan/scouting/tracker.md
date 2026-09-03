@@ -14,6 +14,7 @@ Genere le 03/09/2026 · J-46 avant depart.
 |---|---|---|---|---|
 | Calvin Gueyes | a qualifier | - | recherche web | 28 ans, atelier a Treichville. A concu le costume national d'Olivia Yace a Miss Univers. Jeune, un fait d'armes recent, tout a gagner en visibilite internationale. Treichville est un decor fort. PRIORITE 1 |
 | Djainin | a qualifier | - | recherche web | Jean-Yves Kouassi et Gaston Ouedraogo. Esthetique inspiree du Nouchi, references historiques et culture populaire. Jeunes fondateurs, ancrage local fort. PRIORITE 1 |
+| Elie Kuame | a qualifier | - | recherche web | Createur ivoirien ET organisateur d'une fashion week decrite comme l'evenement mode incontournable d'Abidjan. Double interet : un shoot, et potentiellement l'acces a un defile. Verifier les dates de sa prochaine edition. PRIORITE 1 |
 | Gilles Toure | a qualifier | - | recherche web | Pilier de la haute couture locale. Sur-mesure, elegance travaillee. Etabli, donc plus difficile a atteindre |
 | Kente Gentlemen | a qualifier | - | recherche web | Aristide Loua. Silhouettes masculines et feminines, artisans locaux, mode responsable. Le tailoring homme croise l'angle portrait entreprise. PRIORITE 1 |
 | Loza Maleombho | a qualifier | - | recherche web | Formee entre Abidjan et New York. La plus internationale, donc la plus sollicitee et la plus difficile |

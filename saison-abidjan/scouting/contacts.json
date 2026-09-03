@@ -1,5 +1,16 @@
 [
   {
+    "nom": "Elie Kuame",
+    "type": "createur",
+    "source": "recherche web",
+    "note": "Createur ivoirien ET organisateur d'une fashion week decrite comme l'evenement mode incontournable d'Abidjan. Double interet : un shoot, et potentiellement l'acces a un defile. Verifier les dates de sa prochaine edition. PRIORITE 1",
+    "statut": "a_qualifier",
+    "contacte_le": null,
+    "relance_le": null,
+    "regime": null,
+    "shoot": null
+  },
+  {
     "nom": "Calvin Gueyes",
     "type": "createur",
     "source": "recherche web",

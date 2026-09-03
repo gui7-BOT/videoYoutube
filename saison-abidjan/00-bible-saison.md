@@ -22,16 +22,39 @@ C'est une structure de récit complète. Elle n'existera pas deux fois.
 
 ---
 
-## 2. La question dramatique
+## 2. Les deux questions
 
-> **Est-ce que je suis capable de faire des images qui tiennent dans un pays que je ne connais pas ?**
+La saison en pose deux. Elles ne se résolvent pas au même moment, et c'est ce qui
+la rend solide.
 
-Toute la saison répond à cette question. Elle se pose à l'épisode 1, elle se résout à l'épisode 8,
-au moment des scans.
+**Question 1, professionnelle.**
 
-C'est ce qui distingue cette série d'un vlog de voyage. Le vlog montre. La série demande.
+> Est-ce que je peux me faire une place dans ce milieu en un mois ?
 
----
+Résolue à **l'épisode 8**, quand un créateur établi accepte de travailler avec lui.
+Une victoire visible à l'écran.
+
+**Question 2, technique.**
+
+> Est-ce que les images tiennent ?
+
+Résolue à **l'épisode 9**, aux scans. Personne ne connaît la réponse avant,
+pas même lui.
+
+L'épisode 8 donne une victoire, l'épisode 9 donne le verdict. Le spectateur
+ne peut pas décrocher entre les deux.
+
+**Ce qui rend ces questions exploitables :**
+
+1. **Elles sont vraies.** Il ne connaît ni cette lumière, ni ce milieu, ni ces visages.
+2. **Elles ont des réponses binaires.** Le créateur dit oui ou non. Les images
+   tiennent ou pas.
+3. **Les réponses arrivent à la fin.** L'argentique garantit que personne
+   ne peut sauter à la conclusion.
+
+C'est ce troisième point qui fait toute la série. Aucun vlog de voyage ne peut tenir
+une tension sur neuf épisodes. Lui si, mécaniquement, parce qu'il ne peut pas voir
+ce qu'il fabrique.
 
 ## 3. Les quatre arcs
 
@@ -48,6 +71,11 @@ et personne d'autre ne le tient.
 **Arc humain.**
 Le pays d'Ange, les amis chez qui on loge, la vie de tous les jours. Ce n'est pas du décor,
 c'est ce qui rend la série regardable entre deux shoots.
+
+**Arc social, les créateurs.**
+Il commence chez un créateur de 28 ans à Treichville qui accepte parce qu'il a tout
+à gagner. Il finit chez quelqu'un d'établi qui n'aurait jamais répondu le 19 octobre.
+Cette progression ne s'explique pas, elle se voit.
 
 **Sous-intrigue business.**
 L'ami de Toulouse qui vient explorer un projet agricole. Deux Français qui regardent
@@ -105,7 +133,7 @@ Pas d'improvisation face caméra pour combler.
 
 | Paramètre | Décision |
 |---|---|
-| Nombre d'épisodes | **8** |
+| Nombre d'épisodes | **9** |
 | Durée cible | 8 à 14 min |
 | Publication | 1 épisode / semaine, **après** le retour |
 | Amorce | Bande-annonce 60-90 s publiée avant l'épisode 1 |

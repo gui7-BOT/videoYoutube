@@ -28,9 +28,16 @@ un photographe professionnel qui propose un travail. Écris comme tel.
 > Vous récupérez l'ensemble des images retouchées, libres d'usage pour votre
 > communication.
 >
+> Si vous avez un défilé, une présentation ou un événement pendant cette période,
+> je suis preneur d'y assister, appareil à la main.
+>
 > Est-ce que ça peut vous intéresser ?
 >
 > Guillaume
+
+**La ligne sur les événements ne coûte rien et ouvre une porte que personne n'ouvre
+spontanément.** Un défilé, c'est un épisode entier et des images qu'aucun shoot
+organisé ne donne.
 
 **Pourquoi ça marche :** tu proposes quelque chose dont ils ont réellement besoin,
 en tant que professionnel. Ce n'est pas une demande, c'est une offre.

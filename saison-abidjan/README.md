@@ -20,7 +20,7 @@ C'est la décision structurante du projet. Tout le reste en découle.
 |---|---|
 | `00-bible-saison.md` | Concept, question dramatique, arcs, ligne éditoriale, garde-fous |
 | `01-retroplanning-avant-depart.md` | Les 46 jours avant le départ, semaine par semaine |
-| `02-structure-episodes.md` | Arc des 8 épisodes, contenu de chacun |
+| `02-structure-episodes.md` | Arc des 9 épisodes, créateurs en colonne vertébrale |
 | `03-plan-tournage.md` | Plan par semaine sur place, listes de plans, contraintes lumière |
 | `04-shoots-fashion.md` | Casting, MUA, lieux, droits à l'image, budget |
 | `05-workflow-postprod.md` | Dérushage, nomenclature, sauvegarde, calendrier de publication |
@@ -28,6 +28,7 @@ C'est la décision structurante du projet. Tout le reste en découle.
 | `07-storytelling.md` | Moteur narratif, motif récurrent, structure d'épisode, voix off |
 | `08-scouting.md` | Acteurs professionnels d'Abidjan identifiés : créateurs, photographes, MUA, agences |
 | `09-messages-contact.md` | Messages types prêts à envoyer, par type d'interlocuteur |
+| `10-plan-createurs.md` | Combien de créateurs, combien de journées, budget révisé, stratégie haut de gamme |
 | `scouting/` | Outil de suivi des contacts en Python, 29 cibles pré-remplies |
 | `journal/` | Notes de terrain quotidiennes (un fichier par jour) |
 

@@ -57,6 +57,9 @@ createurs ivoiriens pendant ce sejour. Je vous propose une serie d'images de vos
 creations, en echange de l'acces aux pieces et a votre espace. Vous recuperez
 l'ensemble des images retouchees, libres d'usage pour votre communication.
 
+Si vous avez un defile, une presentation ou un evenement pendant cette periode,
+je suis preneur d'y assister, appareil a la main.
+
 Est-ce que ca peut vous interesser ?
 
 Guillaume"""
@@ -180,6 +183,11 @@ def construire_message(contact, regime=None):
 
 CIBLES_INITIALES = [
     # createurs
+    ("Elie Kuame", "createur", "recherche web",
+     "Createur ivoirien ET organisateur d'une fashion week decrite comme "
+     "l'evenement mode incontournable d'Abidjan. Double interet : un shoot, "
+     "et potentiellement l'acces a un defile. Verifier les dates de sa prochaine "
+     "edition. PRIORITE 1"),
     ("Calvin Gueyes", "createur", "recherche web",
      "28 ans, atelier a Treichville. A concu le costume national d'Olivia Yace a "
      "Miss Univers. Jeune, un fait d'armes recent, tout a gagner en visibilite "
