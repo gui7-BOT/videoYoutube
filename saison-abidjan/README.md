@@ -26,6 +26,9 @@ C'est la décision structurante du projet. Tout le reste en découle.
 | `05-workflow-postprod.md` | Dérushage, nomenclature, sauvegarde, calendrier de publication |
 | `06-checklist-materiel.md` | Matériel, ce qui manque, contraintes climat |
 | `07-storytelling.md` | Moteur narratif, motif récurrent, structure d'épisode, voix off |
+| `08-scouting.md` | Acteurs professionnels d'Abidjan identifiés : créateurs, photographes, MUA, agences |
+| `09-messages-contact.md` | Messages types prêts à envoyer, par type d'interlocuteur |
+| `scouting/tracker.md` | Suivi des contacts, pré-rempli |
 | `journal/` | Notes de terrain quotidiennes (un fichier par jour) |
 
 ---
@@ -49,6 +52,7 @@ C'est la décision structurante du projet. Tout le reste en découle.
 - [x] Storytelling travaillé (`07-storytelling.md`)
 - [x] Régime budgétaire tranché
 - [ ] Titre validé
-- [ ] Casting lancé
+- [x] Cibles de scouting identifiées et messages types écrits
+- [ ] Premiers contacts envoyés
 - [ ] Matériel complété
 - [ ] Tests techniques faits
