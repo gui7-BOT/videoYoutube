@@ -18,28 +18,60 @@ Si la série est bonne mais que les images sont faibles, il ne reste rien.
 
 ---
 
-## 2. Casting : trois canaux, dans cet ordre
+## 2. Casting : scouting Instagram
 
-### Canal 1 — Le réseau d'Ange ⭐ prioritaire
-C'est ton seul avantage réel. Un contact local qui connaît quelqu'un dans la mode
-ou la beauté à Abidjan vaut trois semaines de démarchage à froid.
+Décision prise : pas d'agence. Le réseau est commun avec Ange et ne couvre pas
+le milieu mode à Abidjan. Le casting se fait donc **par scouting Instagram**,
+en direct.
 
-À demander précisément : *qui connaît quelqu'un qui travaille dans la mode,
-la beauté, l'événementiel ou la photo à Abidjan ?*
+### Méthode
 
-### Canal 2 — Agences de mannequins à Abidjan
-Chercher les agences locales, envoyer un message avec portfolio et intention.
-Avantage : professionnalisme, ponctualité, releases habituels.
-Inconvénient : coût, disponibilités contraintes.
+**Volume d'abord.** Le taux de réponse à froid est faible et le taux de concrétisation
+encore plus bas. Pour obtenir 5 à 6 modèles confirmées, viser :
 
-### Canal 3 — Scouting Instagram
-Repérer 20 à 30 profils sur place. Taux de réponse faible, prévoir large.
-Avantage : coût, souplesse, visages moins vus.
-Inconvénient : fiabilité variable, il faut confirmer et reconfirmer.
+```
+40 à 50 profils repérés
+   ↓
+20 à 25 messages envoyés
+   ↓
+8 à 12 réponses
+   ↓
+5 à 6 confirmées
+```
 
-**Objectif à J-30 : 4 à 6 modèles confirmées avec dates approximatives.**
+**Où chercher :**
+- Hashtags et géolocalisations Abidjan liés à la mode, la beauté, le mannequinat
+- Les personnes taguées par les photographes locaux (le meilleur filon :
+  quelqu'un déjà habitué à poser est fiable)
+- Les MUA locales : leurs comptes sont remplis de visages, et elles connaissent
+  tout le monde
+- De proche en proche à partir d'un premier contact établi
 
----
+**Le raccourci le plus efficace : passer par une MUA.** Elle a le réseau,
+elle a intérêt à travailler, et un contact via elle a un taux de réponse
+bien supérieur à un message à froid.
+
+### Ce que doit contenir le message de contact
+
+- Qui tu es, en une phrase, avec le lien vers ton travail
+- Les dates précises et le lieu
+- Le type d'images visé, sans jargon
+- Le régime : collab ou payé, dit clairement dès le premier message
+- Ce qu'elle reçoit concrètement (nombre d'images retouchées, délai)
+- Une question simple qui appelle une réponse courte
+
+**Ne jamais laisser le régime financier implicite.** C'est la première cause
+de désistement une semaine avant le shoot.
+
+### Calendrier
+
+| Échéance | Objectif |
+|---|---|
+| Mi-septembre | 40-50 profils repérés, premiers messages partis |
+| Fin septembre | MUA verrouillée, 10+ conversations en cours |
+| Mi-octobre | 5-6 modèles confirmées avec dates |
+
+**Reconfirmer 48h avant chaque shoot, sans exception.** Y compris les payées.
 
 ## 3. La MUA, point non négociable
 
@@ -120,28 +152,50 @@ avant de partir. C'est une heure de vérification pour sécuriser un mois de tra
 
 ---
 
-## 7. Budget : à trancher
+## 7. Budget : décision prise
 
-Je n'ai pas de données fiables sur les tarifs pratiqués à Abidjan et je ne vais pas
-inventer de chiffres. À sourcer directement auprès des agences dès les premiers contacts.
+**Régime mixte collab / payé.** Ordre de grandeur estimé localement : ~100 €/jour,
+à confirmer auprès des premières personnes contactées.
 
-**Postes à budgéter :**
+| Shoot | Épisode | Régime | Pourquoi |
+|---|---|---|---|
+| Shoot 1 (S1) | E2 | Collab | Test, faible enjeu, exploratoire |
+| **Shoot 2 (S2)** | **E4** | **Payé** | Épisode pivot, ne peut pas être perdu |
+| Shoot 3 (S3) | E6 | Collab | Bonus côtier, si le casting suit |
+| **Shoot 4 (S4)** | **E7** | **Payé** | Démonstration finale |
+| **Shoot 5 (S4-S5)** | **E7** | **Payé** | Démonstration finale |
+| Shoot 6 | E7 | Collab | Si l'occasion se présente |
+
+**Enveloppe modèles : environ 300 €.** Marginal face au coût total du voyage.
+
+### Pourquoi ne pas tout faire en collab
+
+**Le risque d'annulation.** Sans engagement financier, la fiabilité s'effondre.
+Ce n'est pas de la mauvaise volonté, c'est mécanique. Or le planning ne pardonne pas :
+créneaux de lumière de 1h30, une journée sur deux ou trois avec de la pluie, 33 jours
+au total. Une annulation sur un shoot payé est rare. Sur un shoot en collab, elle est
+probable, et elle coûte un épisode entier.
+
+**Le rapport de travail.** Un photographe européen qui vient shooter en Afrique de l'Ouest
+entièrement gratuitement, ça se lit. Y compris à l'écran, dans une série que des gens
+vont regarder. Payer, même modestement, change la relation sur le plateau et se voit
+sur les images.
+
+### MUA
+
+Collab acceptable pour les shoots exploratoires. **Payée sur les trois shoots payés.**
+Une maquilleuse qui démarre a un intérêt réel à ces images, mais la régularité
+se sécurise autrement.
+
+### Autres postes à budgéter
 
 | Poste | Note |
 |---|---|
-| Modèles | × 4 à 6 shoots. Écart important agence vs scouting |
-| MUA | La récurrence permet de négocier un forfait série |
-| Lieux | Certains lieux demandent une autorisation payante |
+| Lieux | Certains demandent une autorisation payante |
 | Transport | Déplacements équipe et matériel |
-| Stylisme | Optionnel, mais transforme un shoot mode |
-| Assistant | Utile sur les shoots complexes, surtout si tu filmes en même temps |
-| Pellicules + développement | Poste sous-estimé sur 6 shoots en moyen format |
-
-**La question à trancher maintenant :** quelle enveloppe totale tu acceptes de mettre
-sur ces shoots ? La réponse détermine agences ou scouting, avec ou sans stylisme,
-et donc le niveau des images. Donne-moi une fourchette et j'ajuste le plan.
-
----
+| Stylisme | Optionnel, transforme un shoot mode |
+| Assistant | Utile sur les shoots où tu filmes en même temps |
+| Pellicules + développement | Poste le plus sous-estimé sur 6 shoots en moyen format |
 
 ## 8. Checklist par shoot
 

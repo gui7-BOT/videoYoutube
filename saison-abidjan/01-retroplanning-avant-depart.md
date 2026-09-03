@@ -17,23 +17,23 @@ aucun réseau pro, non.
 
 ## Bloc 0 : 3 au 6 septembre (maintenant)
 
+- [x] Budget tranché : régime mixte collab / payé
 - [ ] Trancher le **titre** de la saison
-- [ ] Trancher le **budget shoots** (fourchette suffit, voir `04-shoots-fashion.md`)
-- [ ] Demander à Ange la liste des contacts utiles sur place (amis, connaissances,
-      quelqu'un qui connaît le milieu mode/beauté à Abidjan)
-- [ ] Ouvrir un dossier de scouting : compte Instagram dédié ou simple document
+- [ ] Ouvrir le dossier de scouting Instagram
+- [ ] **Repérer les 10 premiers profils** et identifier 3 MUA à Abidjan
 
-**Pourquoi Ange en premier :** c'est le seul avantage que personne d'autre n'a.
-Un contact local vaut trois semaines de démarchage à froid.
+**Le scouting démarre maintenant, pas la semaine prochaine.** Il faut environ
+45 profils repérés pour obtenir 5 à 6 modèles confirmées. C'est un travail de volume
+étalé sur plusieurs semaines, pas une session.
 
 ---
 
 ## S-6 : 7 au 13 septembre
 
-- [ ] Identifier 3 à 5 **agences de mannequins à Abidjan**, envoyer un premier message
-- [ ] Lancer le scouting Instagram : repérer 20 à 30 profils de modèles sur place
-- [ ] Identifier 3 **MUA** (maquilleuses) à Abidjan. Point non négociable, voir doc dédié
-- [ ] Écrire le message type de prise de contact (FR), avec portfolio et intention claire
+- [ ] Scouting : monter à 40-50 profils repérés
+- [ ] **Contacter les MUA en premier.** C'est le raccourci : elles ont le réseau
+      et un contact via elles a un bien meilleur taux de réponse qu'un message à froid
+- [ ] Envoyer les 20 premiers messages, régime financier annoncé dès le premier message
 
 ---
 
@@ -41,7 +41,8 @@ Un contact local vaut trois semaines de démarchage à froid.
 
 - [ ] Relancer les non-réponses (le taux de réponse à froid est bas, c'est normal)
 - [ ] Shortlist : 8 à 12 modèles potentielles
-- [ ] Verrouiller **une** MUA, avec acompte si nécessaire
+- [ ] **Verrouiller la MUA.** Collab sur les shoots exploratoires, payée sur les
+      trois shoots critiques
 - [ ] Repérage de lieux à distance : Google Maps, Instagram géolocalisé, contacts d'Ange
 - [ ] Rédiger le **model release** en français, adapté à un usage portfolio + réseaux + site
 

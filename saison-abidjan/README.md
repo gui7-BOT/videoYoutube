@@ -25,23 +25,29 @@ C'est la décision structurante du projet. Tout le reste en découle.
 | `04-shoots-fashion.md` | Casting, MUA, lieux, droits à l'image, budget |
 | `05-workflow-postprod.md` | Dérushage, nomenclature, sauvegarde, calendrier de publication |
 | `06-checklist-materiel.md` | Matériel, ce qui manque, contraintes climat |
+| `07-storytelling.md` | Moteur narratif, motif récurrent, structure d'épisode, voix off |
 | `journal/` | Notes de terrain quotidiennes (un fichier par jour) |
 
 ---
 
-## Arbitrages en attente
+## Arbitrages
 
-Trois décisions à trancher avant d'aller plus loin :
-
-- [ ] **Titre de la saison** (4 propositions dans `00-bible-saison.md`)
-- [ ] **Budget shoots** (détermine agences vs scouting, voir `04-shoots-fashion.md`)
-- [ ] **Publication pendant ou après le voyage** (recommandation : après, voir `05-workflow-postprod.md`)
+- [ ] **Titre de la saison.** Sert de nom de playlist et de préfixe aux titres
+      d'épisodes (`TITRE · EP.1 — L'arrivée`). C'est ce qui transforme 8 vidéos
+      isolées en série. Propositions dans `00-bible-saison.md`
+- [x] **Budget shoots** : régime mixte collab / payé, ~300 € sur les 3 shoots
+      critiques. Détail dans `04-shoots-fashion.md`
+- [x] **Casting** : scouting Instagram, pas d'agence. MUA en collab sur les shoots
+      exploratoires, payée sur les shoots critiques
+- [ ] **Calendrier de publication** : reporté, à trancher au retour
 
 ---
 
 ## État
 
 - [x] Format et arc de saison définis
+- [x] Storytelling travaillé (`07-storytelling.md`)
+- [x] Régime budgétaire tranché
 - [ ] Titre validé
 - [ ] Casting lancé
 - [ ] Matériel complété
