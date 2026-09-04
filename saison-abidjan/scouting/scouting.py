@@ -68,6 +68,69 @@ lumiere travaillee, cadrage serre.""",
 argentique. J'aimerais photographier vos pieces pendant ce sejour.""",
 }
 
+# Versions DM : quatre lignes max, une question fermee. Le message long est un
+# format email, il se scrolle et se ferme sur mobile. Le detail vient au message 2.
+# Voir 12-approche-dm.md
+DM = {
+    "calvin gueyes": """Vos pieces naissent a Treichville. J'aimerais les photographier la,
+dans le quartier, en moyen format argentique. Pas dans un studio neutre.
+
+Vous recupereriez toutes les images, libres d'usage.
+
+Ca vous interesserait d'en parler ?""",
+
+    "djainin": """Votre travail part du Nouchi, donc de la rue. J'aimerais photographier
+vos pieces dans ce contexte-la, en moyen format argentique, pas contre un
+fond neutre.
+
+Vous recupereriez toutes les images, libres d'usage.
+
+Ca vous parle ?""",
+
+    "kente gentlemen": """Ce qui m'interesse dans votre travail, c'est la facon dont un costume
+tient un homme. J'aimerais en faire une serie de portraits, en moyen format
+argentique.
+
+Vous recupereriez toutes les images, libres d'usage.
+
+Est-ce que ca peut vous interesser ?""",
+
+    "elie kuame": """Je viens y construire une serie sur la mode ivoirienne, en moyen format
+argentique, et j'aimerais photographier vos pieces pendant ce sejour.
+
+Et une question a part : est-ce qu'un defile est prevu sur cette periode ?""",
+}
+
+MESSAGE_2 = """Merci de votre retour.
+
+Concretement : une demi-journee, deux moments dans la journee pour profiter
+des deux lumieres. Vous recuperez 10 a 15 images retouchees, libres d'usage
+pour votre communication, trois semaines apres mon retour (je shoote en
+argentique, le developpement prend ce temps-la).
+
+Je viens avec une maquilleuse. Avec quelle mannequin travaillez-vous
+habituellement ? Je construirai la serie autour d'elle.
+
+Derniere chose : je documente ce sejour en video, donc le shoot serait filme
+en arriere-plan. Un accord ecrit est signe sur place, par tout le monde.
+
+Quelles dates vous conviendraient entre le 20 octobre et le 18 novembre ?
+
+Guillaume"""
+
+
+def message_dm(nom):
+    """Version courte pour Instagram. Le detail vient au message 2."""
+    cle = nom.lower().strip()
+    angle = DM.get(cle)
+    if not angle:
+        return None
+    return f"""Bonjour, je suis Guillaume Gimenez, photographe base a Paris
+({PORTFOLIO}). Je serai a Abidjan {FENETRE}.
+
+{angle}"""
+
+
 # La question sur la mannequin ne se pose jamais en "pouvez-vous fournir" :
 # on presuppose, ce qui pousse a chercher plutot qu'a refuser.
 QUESTION_MANNEQUIN = ("Avec quelle mannequin travaillez-vous habituellement ? "
@@ -386,6 +449,31 @@ def cmd_msg(args):
     print(f"\nUne fois envoye :  python scouting.py sent {c['nom']}")
 
 
+def cmd_dm(args):
+    contacts = charger()
+    c = trouver(contacts, args.nom)
+    if not c:
+        print(f"'{args.nom}' introuvable.")
+        return 1
+    texte = message_dm(c["nom"])
+    if not texte:
+        print(f"Pas de version DM pour '{c['nom']}'. Utilise 'msg' (format email).")
+        return 1
+    print("-" * 72)
+    print(texte)
+    print("-" * 72)
+    print("\nAvant d'envoyer : suivre le compte, liker, commenter une fois.")
+    print("Sinon le DM tombe dans les demandes de messages et n'est jamais lu.")
+    print(f"\nUne fois envoye :  python scouting.py sent {c['nom']}")
+    print("Quand il repond   :  python scouting.py suite")
+
+
+def cmd_suite(args):
+    print("-" * 72)
+    print(MESSAGE_2)
+    print("-" * 72)
+
+
 def cmd_sent(args):
     contacts = charger()
     c = trouver(contacts, args.nom)
@@ -582,7 +670,13 @@ def main():
     a.add_argument("-r", "--regime", choices=("collab", "paye"))
     a.set_defaults(f=cmd_add)
 
-    m = sub.add_parser("msg", help="genere le message a copier")
+    dm = sub.add_parser("dm", help="version DM courte (Instagram)")
+    dm.add_argument("nom")
+    dm.set_defaults(f=cmd_dm)
+
+    sub.add_parser("suite", help="le message 2, a envoyer quand il repond").set_defaults(f=cmd_suite)
+
+    m = sub.add_parser("msg", help="genere le message long (email)")
     m.add_argument("nom")
     m.add_argument("-r", "--regime", choices=("collab", "paye"))
     m.set_defaults(f=cmd_msg)

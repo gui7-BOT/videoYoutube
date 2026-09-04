@@ -30,6 +30,7 @@ C'est la décision structurante du projet. Tout le reste en découle.
 | `09-messages-contact.md` | Messages types prêts à envoyer, par type d'interlocuteur |
 | `10-plan-createurs.md` | Combien de créateurs, combien de journées, budget révisé, stratégie haut de gamme |
 | `11-projets-createurs.md` | Une proposition de projet par créateur, avec l'angle et le message |
+| `12-approche-dm.md` | Comment approcher en DM Instagram : réchauffer, format court, relances |
 | `scouting/` | Outil de suivi des contacts en Python, 30 cibles pré-remplies |
 | `journal/` | Notes de terrain quotidiennes (un fichier par jour) |
 
