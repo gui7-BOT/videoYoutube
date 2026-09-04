@@ -1,62 +1,108 @@
-# Un projet par créateur
+# Approcher les créateurs
 
-## 1. Pourquoi le message générique ne suffit pas
+## 1. La leçon apprise : ne pas surjouer
 
-« Je photographie des pièces de créateurs ivoiriens » est vrai, professionnel,
-et parfaitement oubliable. Un créateur reçoit ça régulièrement.
+Une première version de ces messages ouvrait sur un angle spécifique à chaque marque
+(« vos pièces naissent à Treichville », « votre travail part du Nouchi »), construit
+à partir d'articles de presse.
 
-**Ce qui fait répondre : montrer qu'on a compris sa marque en particulier.**
+**C'était une erreur.** Ces détails viennent de sources de seconde main. Si l'atelier
+a déménagé, si le Nouchi n'est plus son sujet, l'accroche prouve exactement le contraire
+de ce qu'elle cherche : qu'on n'a pas regardé son travail, qu'on a lu une fiche.
 
-La différence tient en une phrase. Comparons :
+Et elle pose une posture qui n'est pas la vraie : celle d'un photographe établi
+qui arrive avec un concept. La position réelle est plus simple et plus solide.
 
-| Générique | Projet |
-|---|---|
-| « Je propose une série d'images de vos créations » | « Vos pièces naissent à Treichville. Je veux les photographier là où elles naissent, pas dans un studio neutre. » |
+> **Un message honnête bat un message sur-mesure faux.**
 
-La deuxième dit trois choses en même temps : j'ai regardé votre travail,
-j'ai une idée, et cette idée n'est possible qu'avec vous.
-
----
-
-## 2. ⚠️ Avant tout : valider les angles
-
-Les angles ci-dessous sont **des hypothèses construites sur des descriptions
-de seconde main**. Je n'ai pas vu leur travail, je ne connais leurs marques
-que par ce que la presse en dit.
-
-**Une proposition personnalisée fausse est pire qu'un message générique.**
-Elle prouve que tu n'as pas regardé.
-
-**Méthode de validation, 20 minutes par créateur :**
-
-1. Ouvre son compte, remonte 30 publications
-2. Note : les couleurs dominantes, les lieux, le type de modèles, le cadrage
-3. Cherche ce qui manque dans ses images. C'est là qu'est ta proposition :
-   tu apportes ce qu'il n'a pas déjà
-4. Ajuste l'angle ci-dessous, ou remplace-le
-
-**Le vrai critère d'une bonne proposition : est-ce qu'elle ne pourrait pas
-être envoyée à un autre créateur ?** Si oui, elle est encore trop générique.
+La personnalisation n'est pas abandonnée, elle change de place : elle vient **après**
+avoir vraiment regardé le compte, en une demi-phrase, ou au deuxième message.
+Jamais comme accroche construite sur du vent.
 
 ---
 
-## 3. La structure d'une proposition
+## 2. Ce que dit le message
 
-Cinq éléments, dans cet ordre, six lignes maximum.
+Trois choses, dans cet ordre.
 
-```
-1. Qui tu es + lien portfolio          une ligne
-2. Les dates                            une ligne
-3. L'ANGLE, spécifique à lui            deux lignes  ← le cœur
-4. Ce qu'il récupère                    une ligne
-5. La question sur la modèle            une ligne
-```
+**Qui je suis, sans gonfler.** Photographe de mariage à Paris et en Provence,
+qui se lance sur le fashion. C'est vrai, et un créateur préfère quelqu'un de franc
+à quelqu'un qui surjoue.
 
-Le point 3 est le seul qui compte. Les quatre autres sont de la logistique.
+**Ce qui prouve que je sais travailler.** Le Kenya : **un hôtel et un concert**.
+
+C'est le point à bien doser :
+
+| Référence | Ce que ça prouve | À utiliser ? |
+|---|---|---|
+| **L'hôtel** | Une commande commerciale, livrée, à l'étranger. Exactement ce qu'un créateur achète | ✅ oui |
+| **Le concert** | Lumière impossible, mouvement, une seule prise. La chose la plus proche d'un défilé | ✅ pour Elie Kuame |
+| Le safari | Du voyage | ❌ ne parle pas à eux |
+| La séance couple | Du mariage, encore | ❌ |
+
+⚠️ **Le Kenya ne prouve pas qu'on sait faire de la mode**, et le vendre comme tel
+se retournerait au premier clic sur le profil. Il prouve qu'on travaille à l'étranger
+et qu'on livre pour une marque. C'est déjà beaucoup, et c'est vrai.
+
+**L'échange, chiffré.** Une demi-journée, toutes les images retouchées, libres d'usage.
+« On se fait du contenu mutuellement » dit la réciprocité mieux qu'une longue phrase.
 
 ---
 
-## 4. Obtenir la modèle et les tenues
+## 3. Le message
+
+> Bonjour,
+>
+> Je suis Guillaume, photographe de mariage à Paris et en Provence. Je me lance aussi
+> sur le fashion, et je serai à Abidjan du 19 octobre au 20 novembre.
+>
+> J'ai déjà travaillé à l'étranger, notamment au Kenya pour un hôtel et un concert.
+> J'aimerais mettre en avant vos créations pendant ce séjour.
+>
+> Concrètement : une demi-journée de shooting, et vous récupérez toutes les images
+> retouchées, libres d'usage pour votre communication. On se fait du contenu mutuellement.
+>
+> Ça vous dit qu'on en discute ?
+>
+> guillaumegimenez.com
+
+**Variante Elie Kuame** (créateur et organisateur de fashion week) : remplacer
+la référence par *« notamment au Kenya, où j'ai shooté un concert »*, et terminer par
+*« Et une question à part : est-ce qu'un défilé est prévu sur cette période ? »*.
+Le concert et le défilé se répondent, le lien se fait tout seul.
+
+**Le même message marche pour les quatre.** Ce n'est pas un défaut : le ton est juste
+et l'offre est claire. Ajouter une remarque personnelle après avoir regardé le compte
+est un bonus, pas une condition.
+
+---
+
+## 4. Le vrai trou à combler : le profil
+
+Le message dit fashion. Le compte dit mariage. **L'écart se voit au premier clic**,
+et c'est lui qui fait perdre les réponses, pas la formulation.
+
+Deux actions avant d'envoyer quoi que ce soit, par ordre d'impact :
+
+### 4.1 Un shoot fashion test à Paris
+
+Une modèle, une amie, un après-midi, un lieu simple. Il reste largement le temps.
+
+Ça règle trois problèmes d'un coup :
+- Des images de mode à montrer, donc un message crédible
+- Le workflow Contax plus numérique plus direction testé **avant** de le faire
+  pour de vrai à 5 000 km
+- La certitude que l'idée de série tient debout
+
+### 4.2 Publier les images du Kenya
+
+L'hôtel et le concert, cette semaine, **avant** les DM. Un créateur qui arrive
+sur un compte et voit des images faites en Afrique, dont une commande pour un hôtel,
+comprend en trois secondes. Devant uniquement des mariages français, il ne comprend rien.
+
+---
+
+## 5. Obtenir la modèle et les tenues
 
 **Les tenues sont acquises.** C'est le cœur du deal, un créateur qui accepte
 un shoot fournit ses pièces. N'en fais pas un sujet.
@@ -82,7 +128,7 @@ quelqu'un de fiable qui connaît déjà les pièces.
 
 ---
 
-## 5. Les fiches
+## 6. Les créateurs, par ordre de contact
 
 ### 🔸 Calvin Gueyes
 
@@ -243,7 +289,7 @@ tu as des images à montrer, et tu as une date de départ qui crée l'urgence.
 
 ---
 
-## 6. Ce que tu envoies cette semaine
+## 7. Ce que tu envoies cette semaine
 
 | Ordre | Créateur | Angle |
 |---|---|---|
@@ -260,7 +306,7 @@ C'est la seule étape que je ne peux pas faire à ta place, et c'est celle qui d
 
 ---
 
-## 7. Ce qui se passe s'ils disent oui
+## 8. Ce qui se passe s'ils disent oui
 
 Prépare la suite, elle arrive vite.
 

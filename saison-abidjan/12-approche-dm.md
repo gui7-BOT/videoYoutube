@@ -67,55 +67,25 @@ Tout ça alourdit et fait fuir. Ça vient au message 2, et c'est là que ça com
 
 ---
 
-## 4. Les quatre messages, version DM
+## 4. Le message
 
-### Calvin Gueyes
+Le message est le même pour les quatre, et il tient en DM sans scroller.
+Il est dans `11-projets-createurs.md`, ou avec `python scouting.py dm "<nom>"`.
 
-> Bonjour, je suis Guillaume Gimenez, photographe basé à Paris (guillaumegimenez.com).
-> Je serai à Abidjan du 19 octobre au 20 novembre.
->
-> Vos pièces naissent à Treichville. J'aimerais les photographier là, dans le quartier,
-> en moyen format argentique. Pas dans un studio neutre.
->
-> Vous récupéreriez toutes les images, libres d'usage.
->
-> Ça vous intéresserait d'en parler ?
+Ce qu'il fait tenir en six lignes :
 
-### Djainin
+- **Qui, sans gonfler.** Photographe de mariage qui se lance sur le fashion
+- **La preuve.** Le Kenya, un hôtel et un concert : de la commande à l'étranger,
+  pas du tourisme
+- **L'échange chiffré.** Une demi-journée, toutes les images retouchées, libres d'usage
+- **Une question ouverte** qui appelle une réponse courte
 
-> Bonjour, Guillaume Gimenez, photographe basé à Paris (guillaumegimenez.com).
-> Je serai à Abidjan du 19 octobre au 20 novembre.
->
-> Votre travail part du Nouchi, donc de la rue. J'aimerais photographier vos pièces
-> dans ce contexte-là, en moyen format argentique, pas contre un fond neutre.
->
-> Vous récupéreriez toutes les images, libres d'usage.
->
-> Ça vous parle ?
+**Une seule variante :** pour Elie Kuame, mettre le concert en avant et terminer
+par la question sur le défilé.
 
-### Kente Gentlemen
-
-> Bonjour, Guillaume Gimenez, photographe basé à Paris (guillaumegimenez.com).
-> Je serai à Abidjan du 19 octobre au 20 novembre.
->
-> Ce qui m'intéresse dans votre travail, c'est la façon dont un costume tient un homme.
-> J'aimerais en faire une série de portraits, en moyen format argentique.
->
-> Vous récupéreriez toutes les images, libres d'usage.
->
-> Est-ce que ça peut vous intéresser ?
-
-### Elie Kuame
-
-> Bonjour, Guillaume Gimenez, photographe basé à Paris (guillaumegimenez.com).
-> Je serai à Abidjan du 19 octobre au 20 novembre.
->
-> Je viens y construire une série sur la mode ivoirienne, en moyen format argentique,
-> et j'aimerais photographier vos pièces pendant ce séjour.
->
-> Et une question à part : est-ce qu'un défilé est prévu sur cette période ?
-
----
+⚠️ Ce que le message 1 ne contient **pas**, et c'est volontaire : le nombre exact
+d'images, les délais de livraison, la mannequin, et surtout **la mention du tournage
+vidéo**. Tout ça alourdit un premier contact et fait fuir. C'est le message 2.
 
 ## 5. Le message 2, quand il répond
 

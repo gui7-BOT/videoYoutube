@@ -46,60 +46,56 @@ FENETRE = "du 19 octobre au 20 novembre"
 # Messages
 # --------------------------------------------------------------------------
 
-# Propositions personnalisees. Un createur repond a un projet, pas a un message
-# generique. Les angles sont des hypotheses : valider 20 min sur son compte avant
-# d'envoyer, et ajuster. Voir 11-projets-createurs.md
-PROJETS = {
-    "calvin gueyes": """Vos pieces naissent a Treichville. Je voudrais les photographier la,
-dans le quartier, pas dans un studio neutre. Je travaille en moyen format
-argentique, en lumiere naturelle. L'ecart entre la precision du vetement et
-la matiere du lieu, c'est exactement ce qui m'interesse.""",
+# Le message dit la verite : le fashion est nouveau, la reference etrangere est
+# le Kenya (un hotel et un concert, donc de la commande et pas du tourisme), et
+# l'echange est explicite. Une accroche construite sur une connaissance de seconde
+# main se retourne contre l'expediteur : si le detail est faux, elle prouve qu'on
+# n'a pas regarde. La personnalisation vient apres avoir vraiment regarde le compte,
+# en une demi-phrase, ou au deuxieme message. Voir 11-projets-createurs.md
 
-    "djainin": """Votre travail part du Nouchi, donc de la rue et de ce qu'elle invente.
-Je voudrais photographier vos pieces dans ce contexte-la, pas contre un fond
-neutre. Moyen format argentique, lumiere naturelle, temps long.""",
+REFERENCE = "notamment au Kenya pour un hotel et un concert"
+REFERENCE_CONCERT = "notamment au Kenya, ou j'ai shoote un concert"
 
-    "kente gentlemen": """Ce qui m'interesse dans votre travail, c'est le vetement comme prolongement
-de quelqu'un : la stature, la matiere, la facon dont un costume tient un homme.
-Je voudrais en faire une serie de portraits, en moyen format argentique,
-lumiere travaillee, cadrage serre.""",
+OUVERTURE = f"""Bonjour,
 
-    "elie kuame": """Je viens y construire une serie sur la mode ivoirienne, en moyen format
-argentique. J'aimerais photographier vos pieces pendant ce sejour.""",
-}
+Je suis Guillaume, photographe de mariage a Paris et en Provence. Je me lance
+aussi sur le fashion, et je serai a Abidjan {FENETRE}."""
 
-# Versions DM : quatre lignes max, une question fermee. Le message long est un
-# format email, il se scrolle et se ferme sur mobile. Le detail vient au message 2.
-# Voir 12-approche-dm.md
-DM = {
-    "calvin gueyes": """Vos pieces naissent a Treichville. J'aimerais les photographier la,
-dans le quartier, en moyen format argentique. Pas dans un studio neutre.
+ECHANGE = """Concretement : une demi-journee de shooting, et vous recuperez toutes les images
+retouchees, libres d'usage pour votre communication. On se fait du contenu
+mutuellement."""
 
-Vous recupereriez toutes les images, libres d'usage.
 
-Ca vous interesserait d'en parler ?""",
+def message_createur(nom):
+    if nom.lower().strip() == "elie kuame":
+        return f"""{OUVERTURE}
 
-    "djainin": """Votre travail part du Nouchi, donc de la rue. J'aimerais photographier
-vos pieces dans ce contexte-la, en moyen format argentique, pas contre un
-fond neutre.
+J'ai deja travaille a l'etranger, {REFERENCE_CONCERT}.
+J'aimerais mettre en avant vos creations pendant ce sejour.
 
-Vous recupereriez toutes les images, libres d'usage.
+{ECHANGE}
 
-Ca vous parle ?""",
+Et une question a part : est-ce qu'un defile est prevu sur cette periode ?
 
-    "kente gentlemen": """Ce qui m'interesse dans votre travail, c'est la facon dont un costume
-tient un homme. J'aimerais en faire une serie de portraits, en moyen format
-argentique.
+{PORTFOLIO}"""
 
-Vous recupereriez toutes les images, libres d'usage.
+    return f"""{OUVERTURE}
 
-Est-ce que ca peut vous interesser ?""",
+J'ai deja travaille a l'etranger, {REFERENCE}.
+J'aimerais mettre en avant vos creations pendant ce sejour.
 
-    "elie kuame": """Je viens y construire une serie sur la mode ivoirienne, en moyen format
-argentique, et j'aimerais photographier vos pieces pendant ce sejour.
+{ECHANGE}
 
-Et une question a part : est-ce qu'un defile est prevu sur cette periode ?""",
-}
+Ca vous dit qu'on en discute ?
+
+{PORTFOLIO}"""
+
+
+# En DM ce message tient deja : six lignes, lisible sur mobile sans scroller.
+# Voir 12-approche-dm.md pour la tactique d'approche.
+def message_dm(nom):
+    return message_createur(nom)
+
 
 MESSAGE_2 = """Merci de votre retour.
 
@@ -119,54 +115,6 @@ Quelles dates vous conviendraient entre le 20 octobre et le 18 novembre ?
 Guillaume"""
 
 
-def message_dm(nom):
-    """Version courte pour Instagram. Le detail vient au message 2."""
-    cle = nom.lower().strip()
-    angle = DM.get(cle)
-    if not angle:
-        return None
-    return f"""Bonjour, je suis Guillaume Gimenez, photographe base a Paris
-({PORTFOLIO}). Je serai a Abidjan {FENETRE}.
-
-{angle}"""
-
-
-# La question sur la mannequin ne se pose jamais en "pouvez-vous fournir" :
-# on presuppose, ce qui pousse a chercher plutot qu'a refuser.
-QUESTION_MANNEQUIN = ("Avec quelle mannequin travaillez-vous habituellement ? "
-                      "Je construirai le projet\nautour d'elle.")
-QUESTION_MANNEQUIN_H = ("Avec quel mannequin travaillez-vous habituellement ? "
-                        "Je construirai la serie\nautour de lui.")
-
-
-def message_createur(nom):
-    cle = nom.lower().strip()
-    angle = PROJETS.get(cle)
-    if not angle:
-        return message_createur_generique(nom)
-
-    question = QUESTION_MANNEQUIN_H if cle == "kente gentlemen" else QUESTION_MANNEQUIN
-    corps = f"""Bonjour,
-
-Guillaume Gimenez, photographe base a Paris. Mon travail : {PORTFOLIO}
-Je serai a Abidjan {FENETRE}.
-
-{angle}
-
-Vous recuperez 10 a 15 images retouchees, libres d'usage pour votre
-communication, trois semaines apres mon retour."""
-
-    if cle == "elie kuame":
-        corps += """
-
-Et une question a part : est-ce qu'un defile ou une presentation est prevu
-pendant cette periode ? Je serais preneur d'y assister, appareil a la main."""
-
-    return corps + f"""
-
-{question}
-
-Guillaume"""
 
 
 def message_createur_generique(nom):

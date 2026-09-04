@@ -28,6 +28,22 @@ aucun réseau pro, non.
 
 ---
 
+## Avant le premier DM : rendre le profil cohérent
+
+Le message dit fashion, le compte dit mariage. **L'écart se voit au premier clic**,
+et c'est lui qui coûte des réponses, pas la formulation du message.
+
+- [ ] **Publier les images du Kenya** : l'hôtel et le concert. Cette semaine,
+      avant d'envoyer quoi que ce soit
+- [ ] **Caler un shoot fashion test à Paris.** Une modèle, une amie, un après-midi,
+      un lieu simple. Il reste largement le temps
+
+Le shoot test règle trois choses : des images de mode à montrer, le workflow
+Contax + numérique + direction testé avant de le faire à 5 000 km, et la certitude
+que l'idée de série tient debout.
+
+---
+
 ## S-6 : 7 au 13 septembre
 
 - [ ] Scouting : monter à 40-50 profils repérés
