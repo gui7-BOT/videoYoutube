@@ -70,8 +70,16 @@ Bonne nuit, Aliyah.
 
 ## Style Suno
 
+Rythme africain. Version par défaut (coucher, doux) :
+
 ```
-gentle French children's lullaby, soft gospel-pop, warm acoustic guitar, soft piano, light finger snaps and hand claps on chorus, male-female duet: warm tender baritone father and sweet little girl voice, 80 BPM, cozy bedtime mood, simple singalong melody, clear French diction
+gentle African gospel lullaby for children, French lyrics, soft kalimba and balafon melody, light djembe and shaker groove, warm acoustic guitar, call-and-response chorus with soft choir harmonies, male-female duet: warm tender baritone father and sweet little girl voice, 85 BPM, joyful but calm bedtime mood, simple singalong melody, clear French diction
+```
+
+Variante plus dansante (rumba congolaise, guitare sebene légère) :
+
+```
+soft Congolese rumba children's song, French lyrics, sweet clean sebene guitar, light congas and shaker, gentle bass, call-and-response gospel choir on chorus, father and little girl duet, 95 BPM, warm, joyful, family singalong
 ```
 
 Si la voix d'enfant sonne faux : remplacer « sweet little girl voice » par « soft young female voice ».
