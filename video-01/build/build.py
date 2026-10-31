@@ -9,6 +9,9 @@ Usage :
   d'un plan est le début du suivant ; le dernier plan va jusqu'à la fin de l'audio).
 - images : DOSSIER/<image>.png|.jpg|.webp. Si une image manque, --fallback est
   utilisée et le plan est listé comme manquant (pour un brouillon).
+  Si DOSSIER/<plan>.mp4 existe (clip généré, par ex. avec kling.py), il remplace
+  l'image pour ce plan : il est recadré, et gelé sur sa dernière image s'il est
+  plus court que le plan.
 - mouvement : zoom_in, zoom_out, pan_left, pan_right.
 Nécessite ffmpeg/ffprobe (avec libass pour les sous-titres).
 """
@@ -16,6 +19,7 @@ import argparse, csv, os, shutil, subprocess, sys, tempfile
 
 FPS = 25
 EXTS = (".png", ".jpg", ".jpeg", ".webp")
+VIDEO_EXTS = (".mp4", ".mov")
 
 
 def duration(path):
@@ -30,6 +34,23 @@ def find_image(folder, name):
         if os.path.exists(p):
             return p
     return None
+
+
+def find_video(folder, name):
+    for ext in VIDEO_EXTS:
+        p = os.path.join(folder, name + ext)
+        if os.path.exists(p):
+            return p
+    return None
+
+
+def video_clip(src, d, w, h, out):
+    """Clip vidéo généré : mis au format, prolongé en gel sur la dernière image si trop court."""
+    vf = (f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},"
+          f"fps={FPS},tpad=stop_mode=clone:stop_duration={d}")
+    subprocess.check_call(["ffmpeg", "-y", "-v", "error", "-i", src, "-an", "-vf", vf,
+                           "-t", f"{d:.3f}", "-pix_fmt", "yuv420p", "-c:v", "libx264",
+                           "-preset", "veryfast", "-crf", "18", out])
 
 
 def zoompan(mouvement, frames, w, h):
@@ -74,6 +95,13 @@ def main():
         start = float(r["debut"])
         end = float(plans[i + 1]["debut"]) if i + 1 < len(plans) else total
         d = max(0.5, end - start)
+        clip = os.path.join(tmp, f"{i:03d}.mp4")
+        vid = find_video(a.images, r["plan"]) or find_video(a.images, r["image"])
+        if vid:
+            video_clip(vid, d, w, h, clip)
+            clips.append(clip)
+            print(f'{r["plan"]:>4}  {start:6.1f}s  {d:5.1f}s  {os.path.basename(vid)} (vidéo)')
+            continue
         img = find_image(a.images, r["image"])
         if img is None:
             missing.append(f'{r["plan"]} (image {r["image"]})')
@@ -81,7 +109,6 @@ def main():
                 sys.exit(f'Image manquante : {r["image"]}')
             img = a.fallback
         frames = int(round(d * FPS))
-        clip = os.path.join(tmp, f"{i:03d}.mp4")
         vf = zoompan(r.get("mouvement", "zoom_in"), frames, w, h)
         subprocess.check_call(["ffmpeg", "-y", "-v", "error", "-loop", "1", "-i", img,
                                "-vf", vf, "-frames:v", str(frames), "-r", str(FPS),
