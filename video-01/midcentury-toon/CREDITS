@@ -1,0 +1,11 @@
+« Notre Père dans ma chambre » — test 40 s, style Mid-century Cartoon
+
+Histoire, personnages (Aliyah, Papa), décor, animation, foley : code original dans ce dossier (engine/toon.js : moteur du style, copié de la bibliothèque).
+Bande-son : chanson.mp3, fournie par le commanditaire (voix et musique) ; 0 à 40 s, fondu 1,5 s. Droits : le commanditaire.
+Foley : synthèse procédurale (core/audio/sfx.py de la bibliothèque + mix.py), aucun échantillon tiers.
+Pas de voix de synthèse, pas de musique composée.
+Polices (SIL Open Font License 1.1, licences dans fonts/) :
+  Jost — Owen Earl, indestructible type* (cartes de légende, planche-modèle)
+  Alfa Slab One — JM Solé (titre de l'affiche)
+  Oleo Script Bold — Soytutype (kicker de l'affiche, titre de la planche)
+Références de grammaire seulement (rien de copié) : UPA, « Gerald McBoing-Boing » (1950) ; planches de couleur de Mary Blair.

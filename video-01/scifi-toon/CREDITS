@@ -1,0 +1,11 @@
+« Notre Père dans ma chambre » — test 40 s, style Sci-Fi Sitcom Toon (adapté aux enfants)
+
+Histoire, personnages (Aliyah, Papa, le lapin), décor, animation, foley : code original dans ce dossier.
+Moteur vectoriel (trait constant, boil, aplats) : toon.js, repris du moteur du style de la bibliothèque (licence de la bibliothèque, voir LICENSE à la racine).
+Bande-son : chanson.mp3, fournie par le commanditaire (voix et musique) ; 0 à 40 s, fondu 1,5 s. Droits : le commanditaire.
+Foley : synthèse procédurale (core/audio/sfx.py de la bibliothèque + mix.py), aucun échantillon tiers.
+Pas de voix de synthèse, pas de musique composée.
+Polices (SIL Open Font License 1.1, licences dans fonts/) :
+  Baloo 2 — Ek Type (sous-titres, pastille, planche-modèle)
+  VT323 — Peter Hull (étiquettes de monde)
+Références de grammaire seulement (rien de copié) : « Hilda » (série animée, 2018) ; « Bluey » (Ludo Studio).

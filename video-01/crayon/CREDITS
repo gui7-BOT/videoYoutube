@@ -1,0 +1,10 @@
+« Notre Père dans ma chambre » — test 40 s, style Crayon Picture Book
+
+Histoire, personnages (Aliyah, Papa), décor, animation, moteur crayon / aquarelle, foley : code original dans ce dossier.
+Bande-son : chanson.mp3, fournie par le commanditaire (voix et musique) ; 0 à 40 s, fondu 1,5 s. Droits : le commanditaire.
+Foley : synthèse procédurale (core/audio/sfx.py de la bibliothèque + mix.py), aucun échantillon tiers.
+Pas de voix de synthèse, pas de musique composée.
+Polices (SIL Open Font License 1.1, licences dans fonts/) :
+  Patrick Hand — Patrick Wagesreiter (sous-titres, les mots imprimés sur la page)
+  Gaegu Bold — JIKJI SOFT (titre de l'affiche, planche-modèle)
+Références de grammaire seulement (rien de copié) : Raymond Briggs, « The Snowman » (1982) ; Beatrice Alemagna, « Un grand jour de rien ».
